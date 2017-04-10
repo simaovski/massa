@@ -1,6 +1,5 @@
 Regras
 -Tamanho 1200x700
--Campos: usuario, senha, bot„o logar, bot„o cadastrar
--Submeter no link https://github.com/simaovski/ExperimentoPPGI/issues/003
--Usu·rios que submeterem duas ou mais submissıes para essa atividade ter„o ambas desconsideradas.
--Preencha o formul·rio em https://goo.gl/bfeXR0
+-Campos: usuario, senha, bot√£o logar, bot√£o cadastrar
+-Usu√°rios que submeterem duas ou mais submiss√µes para essa atividade ter√£o ambas desconsideradas.
+-Preencha o formul√°rio em https://goo.gl/bfeXR0
