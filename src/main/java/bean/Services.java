@@ -54,7 +54,9 @@ public class Services {
         lst = new controller.ServicesController().getAll();
     }
     
-    public void save(){
+    public boolean save(){
+        boolean result = false; 
+        try{
         model.Services s = new model.Services();
         s.setName(name);
         Users u = new Users();
@@ -62,6 +64,12 @@ public class Services {
         s.setIdUser(u);
         
         new controller.ServicesController().persist(s);
+        result = true;
+        } catch (Exception e){
+          e.getMessage();
+          System.out.println(e);
+        }
+        return result;
+   
+        }         
     }
-    
-}
